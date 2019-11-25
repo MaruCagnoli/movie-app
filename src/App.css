@@ -3,7 +3,8 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  max-width:30%;
+  padding: 10px;
 }
 
 .App-header {
@@ -19,4 +20,55 @@
 
 .App-link {
   color: #09d3ac;
+}
+.title-app {
+  font-size: 6rem;
+  color: #ffffff;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.title-pages{
+  text-align: center;
+  font-family: fantasy;
+  color: #ffffff;
+  font-size: 30px;
+  height: 75px;
+}
+.form-add{
+  border: solid 4px;
+  border-color:#4e7195;
+  padding: 5%;
+  justify-content: center;
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+.page-add{
+  flex-direction: row;
+  justify-content: center;
+}
+.fondoApp{
+  background-image: url("https://24horaspuebla.com/wp-content/uploads/2019/05/cine-club.jpg");
+  
+  width: 100%;
+}
+.fondoHeader{
+  border: solid 1px;
+  border-color: #343a40;
+  background-color:#343a40;
+  opacity: 0.9;
+  width: 100%;
+}
+.link-nav{
+  color: #ffffff;
+}
+.link-nav:hover{
+  color:#343a40;
+}
+.table-dark{
+  opacity: 0.9;
+}
+.table-peliculas{
+  border-radius: 15px !important;
+}
+.img-table{
+  width: 100%;
 }
